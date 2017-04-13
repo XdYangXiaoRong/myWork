@@ -1,0 +1,117 @@
+.main_pic{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.main_pic img{
+	width:100%;
+	overflow: hidden;
+}
+.choose{
+	width:100%;
+	height:38px;
+	line-height:38px;
+}
+.choose li{
+	width:25%;
+	float:left;
+	box-sizing: border-box;
+	text-align:center;
+	background-color:#5055bb;
+}
+#now{
+	background-color:#fea48c;
+}
+.choose li a{
+	font-size:14px;
+	color:#fff;
+
+}
+#products1,#products2,#products3,#products4{
+	width:100%;
+	overflow: hidden;
+}
+#products1 li,#products2 li,#products3 li,#products4 li{
+	width:50%;
+	float:left;
+	box-sizing: border-box;
+}
+#products1 li:nth-of-type(odd),#products2 li:nth-of-type(odd),#products3 li:nth-of-type(odd),#products4 li:nth-of-type(odd){
+	/*padding:10px 5px 0px 10px;*/
+	padding:2% 1% 0 2%;
+}
+#products1 li:nth-of-type(even),#products2 li:nth-of-type(even),#products3 li:nth-of-type(even),#products4 li:nth-of-type(even){
+	/*padding:10px 10px 0px 5px;*/
+	padding:2% 2% 0 1%;
+
+}
+#products1 li a,#products2 li a,#products3 li a,#products4 li a{
+	display: block;
+	/*margin-top:2%;s*/
+}
+#products1 li a img,#products2 li a img,#products3 li a img,#products4 li a img{
+	width:100%;
+	overflow: hidden;
+	display: block;
+	border:none;
+}
+#products1 li a p,#products2 li a p,#products3 li a p,#products4 li a p{
+	background-color: white;
+	height:20px;
+	line-height:20px;
+	width:100%;
+	box-sizing: border-box;
+	padding-left:4%;
+}
+.price span{
+	color:#ed2806;
+	font-size:16px;
+	font-weight: bold;
+}
+.price em{
+	color:#666;
+	font-size:12px;
+	text-decoration:line-through
+}
+.title{
+	color:#666;
+	font-size:12px;
+	overflow: hidden;
+}
+.title_head{
+	width:100%;
+	overflow: hidden;
+	margin-top:10px;
+}
+.title_head img{
+	width:100%;
+	overflow: hidden;
+}
+/*固定当好兰的属性*/
+.fix{
+	position: fixed;
+	top:0px;
+	max-width:640px;
+}
+/*回到顶部的按钮样式*/
+#gotop{
+	position: fixed;
+	bottom:5%;
+	right:5%;
+	display: block;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:white;
+	background-image:url("images/back-top.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	display: none;
+	/*filter:alpha(opacity=50);*/ /*IE滤镜，透明度50%*/
+	opacity: 0.5
+}
+p.empty{
+	width:100%;
+	height:0px;
+}

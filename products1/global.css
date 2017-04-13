@@ -1,0 +1,29 @@
+html,body{
+	width:100%;
+	margin:0px auto;
+	min-width: 320px;
+	max-width:640px;
+	height:100%;
+	/*overflow: hidden;*/
+	background-color: #ffeeea;
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+img{
+	margin:0px;
+	display: block;
+	border:none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+dfn,em,i,b,strong {
+	font-style:normal;
+	font-weight:normal;
+}
